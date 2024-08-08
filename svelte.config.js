@@ -22,7 +22,7 @@ const config = {
       crawl: false,
     },
     paths: {
-      base: dev ? "" : "",
+      base: dev ? "" : "/oxygen",
       //base: '' //don't know how to pass build options to vite compilier, so I just manually change this here when I want to compile it to run static-local.
     },
   },
